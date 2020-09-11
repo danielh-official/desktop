@@ -1,23 +1,16 @@
 {
   "typescript.tsdk": "./node_modules/typescript/lib",
   "search.exclude": {
-    ".awcache": true,
-    "**/dist": true,
-    "**/node_modules": true,
-    "**/out": true,
-    "app/test/fixtures": true
+    "**/*.code-search": false,
+    "**/bower_components": false,
+    "**/node_modules": false
   },
   "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/.DS_Store": true,
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/out": true,
-    "tslint-rules/**/*.js": true,
-    ".awcache": true,
-    ".eslintcache": true
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false
   },
   "editor.tabSize": 2,
   "prettier.semi": false,
@@ -35,5 +28,12 @@
     "javascriptreact",
     "typescript",
     "typescriptreact"
-  ]
+  ],
+  "python.pythonPath": "C:\\Python27\\python.exe",
+  "files.watcherExclude": {
+    "**/.git/objects/**": false,
+    "**/.git/subtree-cache/**": false,
+    "**/.hg/store/**": false,
+    "**/node_modules/*/**": false
+  }
 }
