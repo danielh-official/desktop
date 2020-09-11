@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "./node_modules/typescript/lib",
+		"tslint.ignoreDefinitionFiles": true,
+		"python.pythonPath": "C:\\Python27\\python.exe",
+		"files.watcherExclude": {
+			"**/.git/objects/**": false,
+			"**/.git/subtree-cache/**": false,
+			"**/.hg/store/**": false,
+			"**/node_modules/*/**": false
+		},
+		"search.exclude": {
+			"**/*.code-search": false,
+			"**/bower_components": false,
+			"**/node_modules": false
+		},
+		"files.exclude": {
+			"**/.DS_Store": false,
+			"**/.git": false,
+			"**/.hg": false,
+			"**/.svn": false,
+			"**/CVS": false
+		}
+	}
+}
